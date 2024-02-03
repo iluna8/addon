@@ -38,7 +38,7 @@
     }
   },
   "schema": {
-    "model":"list(commax|samsung|daelim|hyundai)",
+    "model":"list(commax|samsung|daelim|hyundai|hyundai2)",
     "type": "list(serial|socket)",
     "sendDelay": "int",
     "serial":{

@@ -4,7 +4,7 @@
 
 ## About
 그레고리 하우스님이 만든 nodejs 월패드 프로그램을 애드온으로 만든 것입니다.
-코맥스, 삼성, 대림 아파트 월패드를 동작시킬 수 있는 nodejs 서버입니다. 
+코맥스, 삼성, 대림, 현대 아파트 월패드를 동작시킬 수 있는 nodejs 서버입니다. 
 커스텀파일 설정이 가능해서 본인이 사용하는 nodejs 파일이 있다면 교체해서 쓰시면 됩니다.
 [네이버 Homeassistant 카페](https://cafe.naver.com/koreassistant)
 
@@ -48,7 +48,7 @@ mqtt:
 ```
 
 ### Option: `model` (필수)
-월패드 모델명을 입력합니다. 가능한 모델명은 commax , samsung , daelim , hyundai 입니다.
+월패드 모델명을 입력합니다. 가능한 모델명은 commax , samsung , daelim , hyundai, hyundai2 입니다.
 다른 월패드의 nodejs 파일을 갖고 계신분은 [이곳 이슈][issue]로 올려주시면 반영하겠습니다.
 
 ### Option: `type` (필수)
